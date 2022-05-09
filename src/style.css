@@ -19,6 +19,27 @@ h6 {
   font-family: var(--font-family-headings);
 }
 
+h2 {
+  font-weight: bold;
+}
+
+.project-info h2 {
+  font-size: 56px;
+  margin: 24px 0;
+}
+
+.project-info p {
+  color: var(--text-color-secondary);
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.project-info a {
+  color: var(--accent-color-dark);
+  padding: 12px 36px;
+  text-decoration: none;
+}
+
 .hero {
   background-color: var(--accent-color-light);
   padding: 160px 20px;
