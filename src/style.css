@@ -5,6 +5,7 @@
   --accent-color-secondary: #e04f37;
   --accent-color-tertiary: #d09973;
   --text-color-secondary: #272142;
+  --box-shadow-main: 7px 11px 10px #ba7c51;
 }
 
 body {
@@ -26,6 +27,7 @@ h2 {
 footer {
   background-color: #000000;
   padding: 15px 0;
+  font-size: 18px;
 }
 footer a {
   color: var(--accent-color-secondary);
@@ -38,6 +40,7 @@ footer p {
   padding-right: 6px;
   text-align: right;
 }
+
 .navigation {
   font-size: 22px;
   font-weight: bold;
@@ -58,6 +61,14 @@ footer p {
 }
 .bg-dark {
   background-color: rgba(208, 153, 115, 1) !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(13, 110, 253, 1);
+}
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+  color: rgba(13, 110, 253, 1);
 }
 .project-info {
   padding: 90px;
@@ -80,8 +91,7 @@ footer p {
 }
 
 .hero {
-  background-color: var(--accent-color-tertiary);
-  padding: 160px 20px;
+  padding: 88px 0px 160px 0;
   text-align: center;
 }
 
@@ -104,10 +114,20 @@ footer p {
   margin: 0;
 }
 
-.hero a {
+.hero button {
   background-color: var(--accent-color-secondary);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-main);
   color: #ffffff;
-  padding: 12px 36px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.hero-text {
+  background: var(--accent-color-tertiary);
+  margin: 0;
+  opacity: 0.9;
+  padding: 48px 10px 67px 0;
 }
 
 @media (max-width: 992px) {
@@ -115,13 +135,18 @@ footer p {
     padding: 0;
     margin: 0;
   }
+  .hero button {
+    border: var(--accent-color-secondary);
+    font-size: 17px;
+    padding: 15px;
+  }
   .project-info {
     padding: 19px;
   }
 }
 @media (max-width: 576px) {
   .hero {
-    padding: 72px 10px;
+    padding: 72px 0px;
   }
   .hero h1 {
     font-size: 45px;
@@ -132,9 +157,11 @@ footer p {
   .hero p {
     font-size: 18px;
   }
-  .hero a {
+  .hero button {
     font-size: 14px;
+    padding: 10px;
   }
+
   .project-info {
     font-size: 14px;
     margin-bottom: 12px;
@@ -146,5 +173,8 @@ footer p {
   }
   .project-info p {
     text-align: justify;
+  }
+  footer {
+    padding: 8px;
   }
 }
