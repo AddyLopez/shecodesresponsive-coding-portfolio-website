@@ -1,8 +1,9 @@
 :root {
   --font-family-headings: "Playfair Display", serif;
   --font-family-default: "Poppins", sans-serif;
-  --accent-color-dark: #6c63ff;
-  --accent-color-light: #f9f7fe;
+  --accent-color-primary: #4be8e5;
+  --accent-color-secondary: #e04f37;
+  --accent-color-tertiary: #d09973;
   --text-color-secondary: #272142;
 }
 
@@ -22,13 +23,42 @@ h6 {
 h2 {
   font-weight: bold;
 }
-
+footer {
+  background-color: #000000;
+  padding: 15px 0;
+}
+footer a {
+  color: var(--accent-color-secondary);
+  text-decoration: none;
+}
+footer p {
+  color: var(--accent-color-tertiary);
+  margin-bottom: 0;
+  margin-right: 48px;
+  padding-right: 6px;
+  text-align: right;
+}
 .navigation {
+  font-size: 22px;
+  font-weight: bold;
   position: fixed;
   top: 0;
   width: 100%;
 }
+.active {
+  color: var(--accent-color-primary) !important;
+}
 
+.navbar-dark .navbar-brand {
+  color: var(--accent-color-secondary);
+  font-size: 22px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--accent-color-secondary);
+}
+.bg-dark {
+  background-color: rgba(208, 153, 115, 1) !important;
+}
 .project-info {
   padding: 90px;
 }
@@ -44,13 +74,13 @@ h2 {
   margin-bottom: 24px;
 }
 .project-info a {
-  color: var(--accent-color-dark);
+  color: var(--accent-color-secondary);
   padding: 12px 36px;
   text-decoration: none;
 }
 
 .hero {
-  background-color: var(--accent-color-light);
+  background-color: var(--accent-color-tertiary);
   padding: 160px 20px;
   text-align: center;
 }
@@ -61,7 +91,7 @@ h2 {
 }
 
 .hero h2 {
-  color: var(text-color-secondary);
+  color: var(--text-color-secondary);
   font-family: var(--font-family-default);
   font-size: 36px;
   font-weight: bold;
@@ -75,11 +105,20 @@ h2 {
 }
 
 .hero a {
-  background-color: var(--accent-color-dark);
+  background-color: var(--accent-color-secondary);
   color: #ffffff;
   padding: 12px 36px;
 }
 
+@media (max-width: 992px) {
+  footer p {
+    padding: 0;
+    margin: 0;
+  }
+  .project-info {
+    padding: 19px;
+  }
+}
 @media (max-width: 576px) {
   .hero {
     padding: 72px 10px;
