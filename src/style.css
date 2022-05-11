@@ -1,6 +1,6 @@
 :root {
   --font-family-headings: "Playfair Display", serif;
-  --font-family-default: "Poppins", sans-serif;
+  --font-family-default: "Cabin Sketch", cursive;
   --accent-color-primary: #4be8e5;
   --accent-color-secondary: #e04f37;
   --accent-color-tertiary: #d09973;
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-headings);
+  font-family: var(--font-family-default);
 }
 
 h2 {
