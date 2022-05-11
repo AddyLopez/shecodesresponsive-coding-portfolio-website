@@ -23,6 +23,11 @@ h2 {
   font-weight: bold;
 }
 
+.navigation {
+  position: fixed;
+  width: 100%;
+}
+
 .project-info {
   padding: 90px;
 }
