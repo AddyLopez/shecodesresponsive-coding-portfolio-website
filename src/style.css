@@ -151,6 +151,10 @@ div.empty-container {
   padding: 20px;
 }
 
+.hero button:hover {
+  background-color: rgba(13, 110, 253, 1);
+}
+
 .hero-text {
   background: var(--accent-color-tertiary);
   margin: 0;
