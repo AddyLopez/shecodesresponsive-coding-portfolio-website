@@ -4,7 +4,6 @@
   --accent-color-primary: #4be8e5;
   --accent-color-secondary: #e04f37;
   --accent-color-tertiary: #d09973;
-  --text-color-secondary: #272142;
   --box-shadow-main: 7px 11px 10px #ba7c51;
 }
 
@@ -107,7 +106,6 @@ div.empty-container {
 }
 
 .project-info p {
-  color: var(--text-color-secondary);
   font-size: 16px;
   opacity: 0.7;
   margin-bottom: 24px;
@@ -129,7 +127,6 @@ div.empty-container {
 }
 
 .hero h2 {
-  color: var(--text-color-secondary);
   font-family: var(--font-family-default);
   font-size: 36px;
   font-weight: bold;
@@ -137,7 +134,6 @@ div.empty-container {
 }
 
 .hero p {
-  color: var(--text-color-secondary);
   font-size: 24px;
   margin: 0;
 }
