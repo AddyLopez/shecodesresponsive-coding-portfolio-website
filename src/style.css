@@ -40,8 +40,34 @@ footer p {
   padding-right: 6px;
   text-align: right;
 }
+footer hr {
+  opacity: 0.65;
+  margin: 7px 0;
+}
+
 footer .icons {
   color: var(--accent-color-tertiary);
+  margin: 0 60px;
+  font-size: 28px;
+}
+
+footer .hr-1 {
+  border-top: 3px solid var(--accent-color-primary);
+}
+
+footer .hr-2 {
+  border-top: 2px solid var(--accent-color-secondary);
+}
+footer .hr-3 {
+  border-top: 5px solid var(--accent-color-tertiary);
+}
+footer .hr-4 {
+  border-top: 3px solid var(--accent-color-primary);
+}
+div.empty-container {
+  background-color: var(--accent-color-tertiary);
+  opacity: 0.85;
+  padding: 12px 0;
 }
 
 .navigation {
