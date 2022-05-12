@@ -50,7 +50,7 @@ footer hr {
 
 footer .icons {
   color: var(--color-theme);
-  margin: 0 60px;
+  margin: 0;
   font-size: 28px;
 }
 
@@ -171,13 +171,13 @@ div.homepage-carousel {
   color: var(--color-text-main);
   margin: 0;
   opacity: 0.9;
-  padding: 64px 10px 83px 0;
+  padding: 88px 0 106px 0;
 }
 .contact-text h1 {
-  font-size: 48px;
+  font-size: 55px;
 }
 .contact-text h2 {
-  font-size: 36px;
+  font-size: 40px;
   color: var(--color-accent-special);
 }
 .contact-text a {
@@ -190,7 +190,7 @@ div.homepage-carousel {
 }
 
 .contact-text p {
-  font-size: 22px;
+  font-size: 23px;
   margin-top: 30px;
 }
 
