@@ -241,6 +241,12 @@ div.homepage-carousel {
   .hero-text {
     padding: 48px 0 52px 0;
   }
+  .contact {
+    padding: 115px 0 155px 0;
+  }
+  .contact-text {
+    padding: 51px 0 37px 0;
+  }
   .contact-text p {
     padding: 11px;
     font-size: 19px;
