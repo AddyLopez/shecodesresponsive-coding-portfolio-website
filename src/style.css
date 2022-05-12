@@ -1,9 +1,9 @@
 :root {
   --font-family-headings: "Playfair Display", serif;
   --font-family-default: "Cabin Sketch", cursive;
-  --accent-color-primary: #4be8e5;
-  --accent-color-secondary: #e04f37;
-  --accent-color-tertiary: #d09973;
+  --color-accent-special: #4be8e5;
+  --color-accent-regular: #e04f37;
+  --color-theme: #d09973;
   --box-shadow-main: 7px 11px 10px #ba7c51;
 }
 
@@ -11,20 +11,11 @@ body {
   font-family: var(--font-family-default);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-family-default);
-}
-
 h2 {
   font-weight: bold;
 }
 h5 {
-  color: var(--accent-color-primary);
+  color: var(--color-accent-special);
   font-size: 25px;
 }
 footer {
@@ -33,11 +24,11 @@ footer {
   font-size: 18px;
 }
 footer a {
-  color: var(--accent-color-secondary);
+  color: var(--color-accent-regular);
   text-decoration: none;
 }
 footer p {
-  color: var(--accent-color-tertiary);
+  color: var(--color-theme);
   margin-bottom: 0;
   margin-right: 85px;
   padding-right: 6px;
@@ -49,46 +40,48 @@ footer hr {
 }
 
 footer .icons {
-  color: var(--accent-color-tertiary);
+  color: var(--color-theme);
   margin: 0 60px;
   font-size: 28px;
 }
 
 footer .hr-1 {
-  border-top: 3px solid var(--accent-color-primary);
+  border-top: 3px solid var(--color-accent-special);
 }
 
 footer .hr-2 {
-  border-top: 2px solid var(--accent-color-secondary);
+  border-top: 2px solid var(--color-accent-regular);
 }
 footer .hr-3 {
-  border-top: 5px solid var(--accent-color-tertiary);
+  border-top: 5px solid var(--color-theme);
 }
 footer .hr-4 {
-  border-top: 3px solid var(--accent-color-primary);
+  border-top: 3px solid var(--color-accent-special);
 }
 div.empty-container {
-  background-color: var(--accent-color-tertiary);
+  background-color: var(--color-theme);
   padding: 12px 0;
 }
 
 .navigation {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: bold;
+  line-height: 1;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 .active {
-  color: var(--accent-color-primary) !important;
+  color: var(--color-accent-special) !important;
 }
 
 .navbar-dark .navbar-brand {
-  color: var(--accent-color-secondary);
-  font-size: 22px;
+  color: var(--color-accent-regular);
+  font-size: 40px;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: var(--accent-color-secondary);
+  color: var(--color-accent-regular);
 }
 .bg-dark {
   background-color: rgba(208, 153, 115, 1) !important;
@@ -103,7 +96,7 @@ div.empty-container {
 }
 
 .hero {
-  padding: 88px 0px 160px 0;
+  padding: 115px 0px 42px 0;
   text-align: center;
 }
 
@@ -113,7 +106,6 @@ div.empty-container {
 }
 
 .hero h2 {
-  font-family: var(--font-family-default);
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -125,7 +117,7 @@ div.empty-container {
 }
 
 .hero button {
-  background-color: var(--accent-color-secondary);
+  background-color: var(--color-accent-regular);
   border-radius: 10px;
   box-shadow: var(--box-shadow-main);
   color: #ffffff;
@@ -138,7 +130,7 @@ div.empty-container {
 }
 
 .hero-text {
-  background: var(--accent-color-tertiary);
+  background: var(--color-theme);
   margin: 0;
   opacity: 0.9;
   padding: 48px 10px 67px 0;
@@ -147,8 +139,8 @@ div.empty-container {
 div.homepage-carousel {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 150px;
-  margin-top: 66px;
-  padding: 55px 0 20px 0;
+  margin-top: 62px;
+  padding: 35px 0 0 0;
   text-align: center;
 }
 
@@ -163,41 +155,51 @@ div.homepage-carousel {
     text-align: center;
   }
   .hero button {
-    border: var(--accent-color-secondary);
+    border: var(--color-accent-regular);
     font-size: 17px;
     padding: 15px;
   }
-  .project-info {
-    padding: 19px;
+  div.homepage-carousel {
+    border-radius: 70px;
+    padding: 40px 0 0 0;
+  }
+  h5 {
+    font-size: 21px;
   }
 }
 @media (max-width: 576px) {
+  .navbar-dark .navbar-brand {
+    font-size: 30px;
+  }
   .hero {
-    padding: 70px 0px;
+    padding: 93px 0px;
   }
   .hero h1 {
-    font-size: 45px;
+    font-size: 50px;
+    margin-bottom: 8px !important;
   }
   .hero h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .hero p {
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 0 !important;
   }
   .hero button {
-    font-size: 14px;
+    font-size: 17px;
     padding: 10px;
   }
+  .hero-text {
+    padding: 48px 0 52px 0;
+  }
+
   h5 {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   div.homepage-carousel {
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 95px;
-    margin-top: 66px;
+    border-radius: 70px;
     padding: 40px 0 10px 0;
-    text-align: center;
   }
   .carousel-item img {
     max-width: 50%;
