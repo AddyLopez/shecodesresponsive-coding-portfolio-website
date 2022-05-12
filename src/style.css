@@ -23,6 +23,10 @@ h6 {
 h2 {
   font-weight: bold;
 }
+h5 {
+  color: var(--accent-color-primary);
+  font-size: 25px;
+}
 footer {
   background-color: #000000;
   padding: 15px 0;
@@ -97,24 +101,6 @@ div.empty-container {
 .navbar-dark .navbar-brand:hover {
   color: rgba(13, 110, 253, 1);
 }
-.project-info {
-  padding: 90px;
-}
-.project-info h2 {
-  font-size: 56px;
-  margin: 24px 0;
-}
-
-.project-info p {
-  font-size: 16px;
-  opacity: 0.7;
-  margin-bottom: 24px;
-}
-.project-info a {
-  color: var(--accent-color-secondary);
-  padding: 12px 36px;
-  text-decoration: none;
-}
 
 .hero {
   padding: 88px 0px 160px 0;
@@ -158,6 +144,18 @@ div.empty-container {
   padding: 48px 10px 67px 0;
 }
 
+div.homepage-carousel {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 150px;
+  margin-top: 66px;
+  padding: 55px 0 20px 0;
+  text-align: center;
+}
+
+.carousel-caption {
+  position: static;
+}
+
 @media (max-width: 992px) {
   footer p {
     padding: 0;
@@ -190,17 +188,21 @@ div.empty-container {
     font-size: 14px;
     padding: 10px;
   }
+  h5 {
+    font-size: 17px;
+  }
 
-  .project-info {
-    font-size: 14px;
-    margin-bottom: 12px;
-    padding: 8px;
+  div.homepage-carousel {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 95px;
+    margin-top: 66px;
+    padding: 40px 0 10px 0;
     text-align: center;
   }
-  .project-info h2 {
-    font-size: 34px;
+  .carousel-item img {
+    max-width: 50%;
   }
-  .project-info p {
-    text-align: justify;
+  .carousel-caption {
+    padding-top: 0.25rem;
   }
 }
