@@ -171,7 +171,7 @@ div.homepage-carousel {
   color: var(--color-text-main);
   margin: 0;
   opacity: 0.9;
-  padding: 88px 0 106px 0;
+  padding: 73px 0 91px 0;
 }
 .contact-text h1 {
   font-size: 55px;
@@ -191,7 +191,8 @@ div.homepage-carousel {
 
 .contact-text p {
   font-size: 23px;
-  margin-top: 30px;
+  margin-top: 26px;
+  padding: 0 435px;
 }
 
 @media (max-width: 992px) {
@@ -211,6 +212,9 @@ div.homepage-carousel {
   }
   h5 {
     font-size: 21px;
+  }
+  .contact-text p {
+    padding: 30px 70px 0 70px;
   }
 }
 @media (max-width: 576px) {
@@ -238,7 +242,13 @@ div.homepage-carousel {
   .hero-text {
     padding: 48px 0 52px 0;
   }
-
+  .contact-text p {
+    padding: 11px;
+    font-size: 19px;
+  }
+  .contact-text h3 {
+    font-size: 27px;
+  }
   h5 {
     font-size: 14px;
   }
