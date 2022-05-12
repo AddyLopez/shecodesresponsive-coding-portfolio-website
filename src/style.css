@@ -167,7 +167,7 @@ div.homepage-carousel {
 }
 
 .contact-text {
-  background-color: rgba(224, 79, 55, 0.85);
+  background-color: var(--color-accent-regular);
   color: var(--color-text-main);
   margin: 0;
   opacity: 0.9;
