@@ -1,10 +1,10 @@
 :root {
-  --font-family-headings: "Playfair Display", serif;
   --font-family-default: "Cabin Sketch", cursive;
   --color-accent-special: #4be8e5;
   --color-accent-regular: #e04f37;
   --color-theme: #d09973;
   --box-shadow-main: 7px 11px 10px #ba7c51;
+  --color-text-main: #fff8dc;
 }
 
 body {
@@ -14,9 +14,18 @@ body {
 h2 {
   font-weight: bold;
 }
+
 h5 {
   color: var(--color-accent-special);
   font-size: 25px;
+}
+i {
+  padding: 10px;
+  background-color: var(--color-text-main);
+  border-radius: 14px;
+}
+.fa-award {
+  padding: 10px 13px;
 }
 footer {
   background-color: #000000;
@@ -120,7 +129,7 @@ div.empty-container {
   background-color: var(--color-accent-regular);
   border-radius: 10px;
   box-shadow: var(--box-shadow-main);
-  color: #ffffff;
+  color: var(--color-text-main);
   font-size: 18px;
   padding: 20px;
 }
@@ -131,6 +140,7 @@ div.empty-container {
 
 .hero-text {
   background: var(--color-theme);
+  color: var(--color-text-main);
   margin: 0;
   opacity: 0.9;
   padding: 48px 10px 67px 0;
@@ -149,6 +159,39 @@ div.homepage-carousel {
 }
 .upcoming-project {
   color: var(--color-accent-regular);
+}
+
+.contact {
+  padding: 115px 0 121px 0;
+  text-align: center;
+}
+
+.contact-text {
+  background-color: rgba(224, 79, 55, 0.85);
+  color: var(--color-text-main);
+  margin: 0;
+  opacity: 0.9;
+  padding: 64px 10px 83px 0;
+}
+.contact-text h1 {
+  font-size: 48px;
+}
+.contact-text h2 {
+  font-size: 36px;
+  color: var(--color-accent-special);
+}
+.contact-text a {
+  color: var(--color-text-main);
+}
+.contact-text a:hover {
+  background-color: rgba(13, 110, 253, 1);
+  border-radius: 6px;
+  padding: 4px 6px;
+}
+
+.contact-text p {
+  font-size: 22px;
+  margin-top: 30px;
 }
 
 @media (max-width: 992px) {
