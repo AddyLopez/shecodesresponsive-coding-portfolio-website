@@ -147,6 +147,9 @@ div.homepage-carousel {
 .carousel-caption {
   position: static;
 }
+.upcoming-project {
+  color: var(--color-accent-regular);
+}
 
 @media (max-width: 992px) {
   footer p {
