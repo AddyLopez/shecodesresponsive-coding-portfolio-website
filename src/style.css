@@ -202,7 +202,7 @@ div.homepage-carousel {
   background-color: rgba(230, 144, 102, 0.9);
   color: var(--color-text-main);
   margin: 0;
-  padding: 30px 0px 67px 0;
+  padding: 45px 0px 67px 0;
 }
 .projects-header h1 {
   font-size: 55px;
@@ -222,12 +222,18 @@ div.homepage-carousel {
   background-color: var(--color-accent-link);
 }
 .projects-header p {
-  font-size: 22px;
+  font-size: 28px;
 }
-.experiment {
+.projects-header-band-recent,
+.projects-header-band-this-website {
   background-color: rgba(224, 79, 55, 0.5);
   padding-top: 26px;
 }
+
+.projects-header-band-upcoming {
+  padding-top: 26px;
+}
+
 @media (max-width: 992px) {
   footer p {
     padding: 0;
