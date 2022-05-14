@@ -197,6 +197,7 @@ div.homepage-carousel {
 .projects {
   padding: 106px 0 0px 0;
 }
+
 .projects-header {
   background-color: rgba(230, 144, 102, 0.9);
   color: var(--color-text-main);
@@ -251,6 +252,12 @@ div.homepage-carousel {
   font-size: 28px;
   font-weight: bold;
   text-align: right;
+}
+.projects-descriptions p {
+  margin-bottom: 24px;
+}
+.projects-descriptions-grid {
+  padding: 24px 0;
 }
 
 @media (max-width: 992px) {
