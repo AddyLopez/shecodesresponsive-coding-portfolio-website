@@ -196,16 +196,17 @@ div.homepage-carousel {
 }
 .projects {
   padding: 106px 0 0px 0;
-  text-align: center;
 }
 .projects-header {
   background-color: rgba(230, 144, 102, 0.9);
   color: var(--color-text-main);
   margin: 0;
-  padding: 45px 0px 67px 0;
+  padding-top: 45px;
+  text-align: center;
 }
 .projects-header h1 {
   font-size: 55px;
+  font-weight: bold;
 }
 .projects-header h2 {
   font-size: 40px;
@@ -232,6 +233,24 @@ div.homepage-carousel {
 
 .projects-header-band-upcoming {
   padding-top: 26px;
+}
+
+.projects-descriptions {
+  background-color: rgba(255, 248, 220, 0.9);
+  font-weight: bold;
+}
+.projects-descriptions h2 {
+  background-color: rgba(255, 248, 220, 0.65);
+  color: var(--color-accent-regular);
+  font-size: 40px;
+  padding: 26px 0 18px 0;
+  text-align: center;
+}
+.projects-descriptions h3 {
+  color: var(--color-accent-regular);
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
 }
 
 @media (max-width: 992px) {
