@@ -176,6 +176,7 @@ div.homepage-carousel {
 }
 .contact-text h1 {
   font-size: 55px;
+  font-weight: bold !important;
 }
 .contact-text h2 {
   font-size: 40px;
@@ -239,6 +240,7 @@ div.homepage-carousel {
 .projects-descriptions {
   background-color: rgba(255, 248, 220, 0.9);
   font-weight: bold;
+  margin-bottom: 121px;
 }
 .projects-descriptions h2 {
   background-color: rgba(255, 248, 220, 0.65);
@@ -254,6 +256,7 @@ div.homepage-carousel {
   text-align: right;
 }
 .projects-descriptions p {
+  font-size: 18px;
   margin-bottom: 24px;
 }
 .projects-descriptions-grid {
@@ -280,6 +283,17 @@ div.homepage-carousel {
   }
   .contact-text p {
     padding: 30px 70px 0 70px;
+  }
+  .projects-header p {
+    font-size: 23px;
+  }
+  .projects-descriptions p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .projects-descriptions h3 {
+    text-align: center;
   }
 }
 @media (max-width: 576px) {
@@ -333,5 +347,21 @@ div.homepage-carousel {
   }
   .carousel-caption {
     padding-top: 0.25rem;
+  }
+
+  .projects h2 {
+    font-size: 36px;
+  }
+  .projects-header p {
+    font-size: 20px;
+  }
+
+  .projects-descriptions h3 {
+    text-align: center;
+  }
+  .projects-descriptions p {
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: justify;
   }
 }
