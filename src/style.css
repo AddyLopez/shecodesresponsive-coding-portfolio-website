@@ -166,6 +166,9 @@ div.homepage-carousel {
   padding: 115px 0 121px 0;
   text-align: center;
 }
+.contact-text-underlay {
+  background-color: rgba(224, 79, 55, 0.35);
+}
 
 .contact-text {
   background-color: var(--color-accent-regular);
