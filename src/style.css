@@ -199,7 +199,7 @@ div.homepage-carousel {
   margin-top: 26px;
 }
 .projects {
-  padding: 106px 0 0px 0;
+  padding: 115px 0 0px 0;
 }
 
 .projects-header {
@@ -267,18 +267,41 @@ div.homepage-carousel {
 }
 
 .about {
-  padding: 115px 0px 42px 0;
+  padding: 115px 0 0 0;
 }
 .about-header-underlay {
   background-color: rgba(230, 144, 102, 0.85);
 }
 .about-header {
-  background-color: rgba(75, 232, 229, 0.75);
+  background-color: rgba(75, 232, 229, 0.65);
   color: var(--color-text-main);
   margin: 0;
-  opacity: 0.9;
-  padding: 48px 10px 67px 0;
-  text-align: center;
+  padding: 48px 0;
+}
+.about-header h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 26px;
+  text-align: left;
+}
+.about-header p {
+  font-size: 18px;
+  margin-bottom: 0;
+  max-width: 605px;
+  text-indent: 40px;
+}
+.about-header a {
+  color: var(--color-accent-regular);
+  text-decoration: none;
+}
+.about-header a:hover {
+  color: var(--color-accent-link);
+}
+.about-header img {
+  border: 13px solid var(--color-text-main);
+  border-radius: 40px;
+  margin-top: 36px;
+  padding: 7px;
 }
 
 .about-q-and-a-underlay {
@@ -339,7 +362,7 @@ div.homepage-carousel {
     font-size: 30px;
   }
   .hero {
-    padding: 93px 0px;
+    padding: 115px 0px;
   }
   .hero h1 {
     font-size: 50px;
