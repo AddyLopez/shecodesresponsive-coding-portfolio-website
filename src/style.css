@@ -203,7 +203,7 @@ div.homepage-carousel {
   margin-top: 26px;
 }
 .projects {
-  padding: 115px 0 0px 0;
+  padding: 115px 0 121px 0;
 }
 
 .projects-header {
@@ -247,7 +247,6 @@ div.homepage-carousel {
 .projects-descriptions {
   background-color: rgba(255, 248, 220, 0.9);
   font-weight: bold;
-  margin-bottom: 121px;
 }
 .projects-descriptions h2 {
   background-color: rgba(255, 248, 220, 0.65);
@@ -269,13 +268,7 @@ div.homepage-carousel {
 .projects-descriptions-grid {
   padding: 24px 0;
 }
-.projects-descriptions-tech-icons-weather {
-  max-width: 550px;
-}
 
-.projects-descriptions-tech-icons-weather img {
-  max-width: 37px;
-}
 .projects-descriptions-tech-icons-masyu {
   max-width: 550px;
 }
