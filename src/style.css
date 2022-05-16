@@ -290,13 +290,13 @@ div.homepage-carousel {
 .about-header h1 {
   font-size: 55px;
   font-weight: bold;
-  margin-top: 26px;
   text-align: left;
 }
 .about-header p {
-  font-size: 18px;
+  font-size: 17px;
+  line-height: 24px;
   margin-bottom: 0;
-  max-width: 605px;
+  text-align: justify;
   text-indent: 40px;
 }
 .about-header a {
@@ -309,7 +309,6 @@ div.homepage-carousel {
 .about-header img {
   border: 13px solid var(--color-text-main);
   border-radius: 40px;
-  margin-top: 53px;
   padding: 7px;
 }
 
@@ -331,6 +330,11 @@ div.homepage-carousel {
   margin-left: 45px;
   margin-bottom: 52px;
   max-width: 835px;
+}
+@media (min-width: 1200px) {
+  .about-header p {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -360,10 +364,20 @@ div.homepage-carousel {
   .projects-descriptions p {
     font-size: 16px;
   }
+  .about-header p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0;
+    text-indent: 28px;
+  }
 }
 @media (max-width: 767px) {
   .projects-descriptions h3 {
     text-align: center;
+  }
+
+  .about-header p {
+    margin-top: 30px;
   }
 }
 @media (max-width: 576px) {
