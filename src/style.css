@@ -4,7 +4,6 @@
   --color-accent-regular: #e04f37;
   --color-accent-link: rgba(13, 110, 253, 1);
   --color-theme: #e69066;
-  --box-shadow-main: 7px 11px 10px #ba7c51;
   --color-text-main: #fff8dc;
 }
 
@@ -129,7 +128,6 @@ div.empty-container {
 .hero button {
   background-color: var(--color-accent-regular);
   border-radius: 10px;
-  box-shadow: var(--box-shadow-main);
   color: var(--color-text-main);
   font-size: 18px;
   padding: 20px;
@@ -140,10 +138,9 @@ div.empty-container {
 }
 
 .hero-text {
-  background: var(--color-theme);
+  background-color: rgba(230, 144, 102, 0.9);
   color: var(--color-text-main);
   margin: 0;
-  opacity: 0.9;
   padding: 48px 10px 67px 0;
 }
 
@@ -269,6 +266,29 @@ div.homepage-carousel {
 .projects-descriptions img {
   max-width: 37px;
 }
+.projects-descriptions a {
+  color: var(--color-theme);
+  text-decoration: none;
+}
+.projects-descriptions a:hover {
+  color: var(--color-accent-link);
+  text-decoration: none;
+}
+.projects-descriptions button {
+  background-color: var(--color-accent-regular);
+  border-radius: 10px;
+  color: var(--color-text-main);
+  font-size: 16px;
+  margin-bottom: 48px;
+  padding: 8px;
+}
+
+.projects-descriptions button:hover {
+  background-color: var(--color-accent-link);
+}
+.projects-descriptions-button {
+  text-align: left;
+}
 .projects-descriptions-grid {
   padding: 24px 0;
 }
@@ -386,6 +406,12 @@ p.projects-descriptions-date {
 @media (max-width: 767px) {
   .projects-descriptions h3 {
     text-align: center;
+  }
+  div.projects-descriptions-button {
+    text-align: center;
+  }
+  .projects-descriptions-button button {
+    border: var(--color-accent-regular);
   }
 
   p.projects-descriptions-date {
