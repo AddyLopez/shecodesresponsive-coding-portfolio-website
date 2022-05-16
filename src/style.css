@@ -264,6 +264,7 @@ div.homepage-carousel {
 .projects-descriptions p {
   font-size: 18px;
   margin-bottom: 24px;
+  text-align: justify;
 }
 .projects-descriptions img {
   max-width: 37px;
@@ -273,6 +274,10 @@ div.homepage-carousel {
 }
 .projects-descriptions-tech-icons {
   text-align: center;
+}
+p.projects-descriptions-date {
+  padding-top: 6px;
+  text-align: right;
 }
 .about {
   padding: 115px 0 0 0;
@@ -383,6 +388,9 @@ div.homepage-carousel {
     text-align: center;
   }
 
+  p.projects-descriptions-date {
+    text-align: center;
+  }
   .about-header p {
     margin-top: 30px;
   }
@@ -453,6 +461,8 @@ div.homepage-carousel {
   .projects-descriptions p {
     font-size: 16px;
     padding: 0 10px;
-    text-align: justify;
+  }
+  p.projects-descriptions-date {
+    text-align: center;
   }
 }
