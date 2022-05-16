@@ -158,6 +158,10 @@ div.homepage-carousel {
 .carousel-caption {
   position: static;
 }
+.carousel-indicators {
+  color: #6c757d;
+  margin-bottom: 13px;
+}
 .carousel-upcoming-project {
   color: var(--color-accent-regular);
 }
