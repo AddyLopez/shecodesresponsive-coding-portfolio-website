@@ -265,16 +265,14 @@ div.homepage-carousel {
   font-size: 18px;
   margin-bottom: 24px;
 }
+.projects-descriptions img {
+  max-width: 37px;
+}
 .projects-descriptions-grid {
   padding: 24px 0;
 }
-
-.projects-descriptions-tech-icons-masyu {
-  max-width: 550px;
-}
-
-.projects-descriptions-tech-icons-masyu img {
-  max-width: 37px;
+.projects-descriptions-tech-icons {
+  text-align: center;
 }
 
 .about {
