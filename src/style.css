@@ -274,7 +274,6 @@ div.homepage-carousel {
 .projects-descriptions-tech-icons {
   text-align: center;
 }
-
 .about {
   padding: 115px 0 0 0;
 }
@@ -318,6 +317,14 @@ div.homepage-carousel {
 .about-q-and-a {
   background-color: rgba(0, 0, 0, 0.75);
   padding: 44px 0 44px 96px;
+}
+.about-q-and-a-underlay h2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--color-text-main);
+  font-size: 40px;
+  margin-bottom: 0;
+  padding: 26px 0 18px 0;
+  text-align: center;
 }
 
 .about-q-and-a h3 {
