@@ -269,6 +269,20 @@ div.homepage-carousel {
 .projects-descriptions-grid {
   padding: 24px 0;
 }
+.projects-descriptions-tech-icons-weather {
+  max-width: 550px;
+}
+
+.projects-descriptions-tech-icons-weather img {
+  max-width: 37px;
+}
+.projects-descriptions-tech-icons-masyu {
+  max-width: 550px;
+}
+
+.projects-descriptions-tech-icons-masyu img {
+  max-width: 37px;
+}
 
 .about {
   padding: 115px 0 0 0;
