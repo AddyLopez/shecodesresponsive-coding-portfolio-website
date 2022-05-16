@@ -300,7 +300,7 @@ div.homepage-carousel {
   text-indent: 40px;
 }
 .about-header a {
-  color: var(--color-accent-regular);
+  color: var(--color-theme);
   text-decoration: none;
 }
 .about-header a:hover {
