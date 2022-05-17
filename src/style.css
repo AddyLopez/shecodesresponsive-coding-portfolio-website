@@ -105,7 +105,7 @@ div.empty-container {
 }
 
 .hero {
-  padding: 115px 0px 42px 0;
+  padding: 115px 0px 162px 0;
   text-align: center;
 }
 
@@ -164,7 +164,7 @@ div.homepage-carousel {
 }
 
 .contact {
-  padding: 115px 0 121px 0;
+  padding: 115px 0 162px 0;
   text-align: center;
 }
 .contact-text-underlay {
@@ -200,7 +200,7 @@ div.homepage-carousel {
   margin-top: 26px;
 }
 .projects {
-  padding: 115px 0 121px 0;
+  padding: 115px 0 162px 0;
 }
 
 .projects-header {
@@ -301,7 +301,7 @@ p.projects-descriptions-date {
 }
 
 .about {
-  padding: 115px 0 0 0;
+  padding: 115px 0 162px 0;
 }
 .about-header-underlay {
   background-color: rgba(230, 144, 102, 0.85);
@@ -440,9 +440,6 @@ p.projects-descriptions-date {
   .navbar-dark .navbar-brand {
     font-size: 30px;
   }
-  .hero {
-    padding: 115px 0px;
-  }
   .hero h1 {
     font-size: 50px;
     margin-bottom: 8px !important;
@@ -460,9 +457,6 @@ p.projects-descriptions-date {
   }
   .hero-text {
     padding: 48px 0 52px 0;
-  }
-  .contact {
-    padding: 115px 0 155px 0;
   }
   .contact-text {
     padding: 51px 0 37px 0;
