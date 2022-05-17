@@ -286,6 +286,14 @@ div.homepage-carousel {
 .projects-descriptions button:hover {
   background-color: var(--color-accent-link);
 }
+
+.projects-descriptions ul {
+  list-style: square;
+}
+
+p.projects-descriptions-image-credits {
+  margin-bottom: 0;
+}
 .projects-descriptions-button {
   text-align: left;
 }
