@@ -419,6 +419,8 @@ p.projects-descriptions-date {
     text-align: center;
   }
   .about-header p {
+    font-size: 21px;
+    line-height: 25px;
     margin-top: 30px;
   }
 }
