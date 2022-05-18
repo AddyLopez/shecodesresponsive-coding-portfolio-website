@@ -332,11 +332,13 @@ p.projects-descriptions-date {
   text-align: justify;
   text-indent: 40px;
 }
-.about-header a {
+.about-header a,
+.about-q-and-a a {
   color: var(--color-theme);
   text-decoration: none;
 }
-.about-header a:hover {
+.about-header a:hover,
+.about-q-and-a a:hover {
   color: var(--color-accent-link);
 }
 .about-header img {
