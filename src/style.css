@@ -108,23 +108,19 @@ div.empty-container {
   padding: 115px 0px 162px 0;
   text-align: center;
 }
-
 .home h1 {
   font-size: 96px;
   font-weight: bold;
 }
-
 .home h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
-
 .home p {
   font-size: 24px;
   margin: 0;
 }
-
 .home button {
   background-color: var(--color-accent-regular);
   border-radius: 10px;
@@ -132,18 +128,15 @@ div.empty-container {
   font-size: 18px;
   padding: 20px;
 }
-
 .home button:hover {
   background-color: var(--color-accent-link);
 }
-
 .home-header {
   background-color: rgba(230, 144, 102, 0.9);
   color: var(--color-text-main);
   margin: 0;
   padding: 48px 10px 67px 0;
 }
-
 section.home-carousel {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 150px;
@@ -151,7 +144,6 @@ section.home-carousel {
   padding: 35px 0 0 0;
   text-align: center;
 }
-
 .carousel-caption {
   position: static;
 }
@@ -163,6 +155,72 @@ section.home-carousel {
   color: var(--color-accent-regular);
 }
 
+.about {
+  padding: 115px 0 162px 0;
+}
+.about a {
+  color: var(--color-theme);
+  text-decoration: none;
+}
+.about a:hover {
+  color: var(--color-accent-link);
+}
+.about-header-underlay {
+  background-color: rgba(230, 144, 102, 0.85);
+}
+.about-header {
+  background-color: rgba(75, 232, 229, 0.65);
+  color: var(--color-text-main);
+  margin: 0;
+  padding: 18px 0 48px 0;
+}
+.about-header h1 {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: left;
+}
+.about-header p {
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-align: justify;
+  text-indent: 40px;
+}
+.about-header img {
+  border: 13px solid var(--color-text-main);
+  border-radius: 40px;
+  padding: 7px;
+}
+.about-q-and-a-underlay {
+  background-color: rgba(255, 248, 220, 0.65);
+}
+.about-q-and-a-underlay h2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--color-text-main);
+  font-size: 40px;
+  margin-bottom: 0;
+  padding: 26px 0 18px 0;
+  text-align: center;
+}
+.about-q-and-a {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 44px 0 44px 96px;
+}
+.about-q-and-a h3 {
+  color: var(--color-accent-regular);
+  font-size: 26px;
+  max-width: 880px;
+}
+.about-q-and-a p {
+  font-size: 21px;
+  color: var(--color-text-main);
+  margin-left: 45px;
+  margin-bottom: 52px;
+  margin-top: 16px;
+  max-width: 835px;
+  text-align: justify;
+}
+
 .contact {
   padding: 115px 0 162px 0;
   text-align: center;
@@ -170,7 +228,6 @@ section.home-carousel {
 .contact-text-underlay {
   background-color: rgba(224, 79, 55, 0.35);
 }
-
 .contact-text {
   background-color: var(--color-accent-regular);
   color: var(--color-text-main);
@@ -186,6 +243,10 @@ section.home-carousel {
   font-size: 40px;
   color: var(--color-accent-special);
 }
+.contact-text p {
+  font-size: 23px;
+  margin-top: 26px;
+}
 .contact-text a {
   color: var(--color-text-main);
 }
@@ -195,14 +256,9 @@ section.home-carousel {
   padding: 4px 6px;
 }
 
-.contact-text p {
-  font-size: 23px;
-  margin-top: 26px;
-}
 .projects {
   padding: 115px 0 162px 0;
 }
-
 .projects-header {
   background-color: rgba(230, 144, 102, 0.9);
   color: var(--color-text-main);
@@ -217,6 +273,9 @@ section.home-carousel {
 .projects-header h2 {
   font-size: 40px;
 }
+.projects-header p {
+  font-size: 28px;
+}
 .projects-header img {
   background-color: var(--color-theme);
   border: 4px solid var(--color-accent-special);
@@ -224,23 +283,17 @@ section.home-carousel {
   padding: 17px;
   margin-bottom: 16px;
 }
-
 .projects-header img:hover {
   background-color: var(--color-accent-link);
-}
-.projects-header p {
-  font-size: 28px;
 }
 .projects-header-band-recent,
 .projects-header-band-this-website {
   background-color: rgba(224, 79, 55, 0.5);
   padding-top: 26px;
 }
-
 .projects-header-band-upcoming {
   padding-top: 26px;
 }
-
 .projects-descriptions {
   background-color: rgba(255, 248, 220, 0.9);
   font-weight: bold;
@@ -282,23 +335,17 @@ section.home-carousel {
   margin-bottom: 48px;
   padding: 8px;
 }
-
 .projects-descriptions button:hover {
   background-color: var(--color-accent-link);
 }
-
 .projects-descriptions ul {
   list-style: square;
 }
-
-p.projects-descriptions-image-credits {
-  margin-bottom: 0;
+.projects-descriptions-grid {
+  padding: 24px 0;
 }
 .projects-descriptions-button {
   text-align: left;
-}
-.projects-descriptions-grid {
-  padding: 24px 0;
 }
 .projects-descriptions-tech-icons {
   text-align: center;
@@ -307,76 +354,10 @@ p.projects-descriptions-date {
   padding-top: 6px;
   text-align: right;
 }
-
-.about {
-  padding: 115px 0 162px 0;
-}
-.about-header-underlay {
-  background-color: rgba(230, 144, 102, 0.85);
-}
-.about-header {
-  background-color: rgba(75, 232, 229, 0.65);
-  color: var(--color-text-main);
-  margin: 0;
-  padding: 18px 0 48px 0;
-}
-.about-header h1 {
-  font-size: 55px;
-  font-weight: bold;
-  text-align: left;
-}
-.about-header p {
-  font-size: 17px;
-  line-height: 24px;
+p.projects-descriptions-image-credits {
   margin-bottom: 0;
-  text-align: justify;
-  text-indent: 40px;
-}
-.about-header a,
-.about-q-and-a a {
-  color: var(--color-theme);
-  text-decoration: none;
-}
-.about-header a:hover,
-.about-q-and-a a:hover {
-  color: var(--color-accent-link);
-}
-.about-header img {
-  border: 13px solid var(--color-text-main);
-  border-radius: 40px;
-  padding: 7px;
 }
 
-.about-q-and-a-underlay {
-  background-color: rgba(255, 248, 220, 0.65);
-}
-.about-q-and-a {
-  background-color: rgba(0, 0, 0, 0.75);
-  padding: 44px 0 44px 96px;
-}
-.about-q-and-a-underlay h2 {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: var(--color-text-main);
-  font-size: 40px;
-  margin-bottom: 0;
-  padding: 26px 0 18px 0;
-  text-align: center;
-}
-
-.about-q-and-a h3 {
-  color: var(--color-accent-regular);
-  font-size: 26px;
-  max-width: 880px;
-}
-.about-q-and-a p {
-  font-size: 21px;
-  color: var(--color-text-main);
-  margin-left: 45px;
-  margin-bottom: 52px;
-  margin-top: 16px;
-  max-width: 835px;
-  text-align: justify;
-}
 @media (min-width: 1200px) {
   .about-header p {
     font-size: 20px;
@@ -389,27 +370,20 @@ p.projects-descriptions-date {
     margin: 0;
     text-align: center;
   }
-  .hero button {
+
+  .home button {
     border: var(--color-accent-regular);
     font-size: 17px;
     padding: 15px;
   }
-  div.homepage-carousel {
+  section.home-carousel {
     border-radius: 70px;
     padding: 40px 0 0 0;
   }
   h5 {
     font-size: 21px;
   }
-  .contact-text p {
-    padding: 30px 70px 0 70px;
-  }
-  .projects-header p {
-    font-size: 23px;
-  }
-  .projects-descriptions p {
-    font-size: 16px;
-  }
+
   .about-header p {
     font-size: 14px;
     line-height: 17px;
@@ -425,8 +399,26 @@ p.projects-descriptions-date {
   .about-q-and-a p {
     font-size: 18px;
   }
+
+  .projects-header p {
+    font-size: 23px;
+  }
+  .projects-descriptions p {
+    font-size: 16px;
+  }
+
+  .contact-text p {
+    padding: 30px 70px 0 70px;
+  }
 }
+
 @media (max-width: 767px) {
+  .about-header p {
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 30px;
+  }
+
   .projects-descriptions h3 {
     text-align: center;
   }
@@ -440,49 +432,35 @@ p.projects-descriptions-date {
   p.projects-descriptions-date {
     text-align: center;
   }
-  .about-header p {
-    font-size: 21px;
-    line-height: 25px;
-    margin-top: 30px;
-  }
 }
+
 @media (max-width: 576px) {
   .navbar-dark .navbar-brand {
     font-size: 30px;
   }
-  .hero h1 {
+
+  .home h1 {
     font-size: 50px;
     margin-bottom: 8px !important;
   }
-  .hero h2 {
+  .home h2 {
     font-size: 24px;
   }
-  .hero p {
+  .home p {
     font-size: 20px;
     margin-bottom: 0 !important;
   }
-  .hero button {
+  .home button {
     font-size: 17px;
     padding: 10px;
   }
-  .hero-text {
+  .home-header {
     padding: 48px 0 52px 0;
-  }
-  .contact-text {
-    padding: 51px 0 37px 0;
-  }
-  .contact-text p {
-    padding: 11px;
-    font-size: 19px;
-  }
-  .contact-text h3 {
-    font-size: 27px;
   }
   h5 {
     font-size: 14px;
   }
-
-  div.homepage-carousel {
+  section.home-carousel {
     border-radius: 70px;
     padding: 40px 0 10px 0;
   }
@@ -493,23 +471,6 @@ p.projects-descriptions-date {
     padding-top: 0.25rem;
   }
 
-  .projects h2 {
-    font-size: 36px;
-  }
-  .projects-header p {
-    font-size: 20px;
-  }
-
-  .projects-descriptions h3 {
-    text-align: center;
-  }
-  .projects-descriptions p {
-    font-size: 16px;
-    padding: 0 10px;
-  }
-  p.projects-descriptions-date {
-    text-align: center;
-  }
   .about-header {
     padding: 18px 10px 48px 10px;
   }
@@ -524,5 +485,33 @@ p.projects-descriptions-date {
     margin-bottom: 24px;
     margin-left: 0;
     margin-top: 13px;
+  }
+
+  .projects h2 {
+    font-size: 36px;
+  }
+  .projects-header p {
+    font-size: 20px;
+  }
+  .projects-descriptions h3 {
+    text-align: center;
+  }
+  .projects-descriptions p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  p.projects-descriptions-date {
+    text-align: center;
+  }
+
+  .contact-text {
+    padding: 51px 0 37px 0;
+  }
+  .contact-text p {
+    padding: 11px;
+    font-size: 19px;
+  }
+  .contact-text h3 {
+    font-size: 27px;
   }
 }
