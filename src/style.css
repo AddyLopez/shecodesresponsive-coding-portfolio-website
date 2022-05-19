@@ -1,5 +1,4 @@
 :root {
-  --font-family-default: "Cabin Sketch", cursive;
   --color-accent-special: #4be8e5;
   --color-accent-regular: #e04f37;
   --color-accent-link: rgba(13, 110, 253, 1);
@@ -8,7 +7,7 @@
 }
 
 body {
-  font-family: var(--font-family-default);
+  font-family: "Cabin Sketch", cursive;
 }
 
 h2 {
@@ -19,12 +18,7 @@ h5 {
   color: var(--color-accent-special);
   font-size: 25px;
 }
-i {
-  padding: 10px;
-  background-color: var(--color-text-main);
-  border-radius: 14px;
-}
-.fa-award {
+footer .fa-award {
   padding: 10px 13px;
 }
 footer {
@@ -46,6 +40,12 @@ footer p {
 footer hr {
   opacity: 0.65;
   margin: 7px 0;
+}
+
+footer i {
+  padding: 10px;
+  background-color: var(--color-text-main);
+  border-radius: 14px;
 }
 
 footer .icons {
@@ -104,28 +104,28 @@ div.empty-container {
   color: var(--color-accent-link);
 }
 
-.hero {
+.home {
   padding: 115px 0px 162px 0;
   text-align: center;
 }
 
-.hero h1 {
+.home h1 {
   font-size: 96px;
   font-weight: bold;
 }
 
-.hero h2 {
+.home h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
 
-.hero p {
+.home p {
   font-size: 24px;
   margin: 0;
 }
 
-.hero button {
+.home button {
   background-color: var(--color-accent-regular);
   border-radius: 10px;
   color: var(--color-text-main);
@@ -133,18 +133,18 @@ div.empty-container {
   padding: 20px;
 }
 
-.hero button:hover {
+.home button:hover {
   background-color: var(--color-accent-link);
 }
 
-.hero-text {
+.home-header {
   background-color: rgba(230, 144, 102, 0.9);
   color: var(--color-text-main);
   margin: 0;
   padding: 48px 10px 67px 0;
 }
 
-div.homepage-carousel {
+section.home-carousel {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 150px;
   margin-top: 62px;
