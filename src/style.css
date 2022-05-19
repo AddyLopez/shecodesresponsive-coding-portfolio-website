@@ -225,32 +225,32 @@ section.home-carousel {
   padding: 115px 0 162px 0;
   text-align: center;
 }
-.contact-text-underlay {
+.contact-header-underlay {
   background-color: rgba(224, 79, 55, 0.35);
 }
-.contact-text {
+.contact-header {
   background-color: var(--color-accent-regular);
   color: var(--color-text-main);
   margin: 0;
   opacity: 0.9;
   padding: 89px 0 107px 0;
 }
-.contact-text h1 {
+.contact-header h1 {
   font-size: 55px;
   font-weight: bold !important;
 }
-.contact-text h2 {
+.contact-header h2 {
   font-size: 40px;
   color: var(--color-accent-special);
 }
-.contact-text p {
+.contact-header p {
   font-size: 23px;
   margin-top: 26px;
 }
-.contact-text a {
+.contact-header a {
   color: var(--color-text-main);
 }
-.contact-text a:hover {
+.contact-header a:hover {
   background-color: var(--color-accent-link);
   border-radius: 6px;
   padding: 4px 6px;
@@ -407,7 +407,7 @@ p.projects-descriptions-image-credits {
     font-size: 16px;
   }
 
-  .contact-text p {
+  .contact-header p {
     padding: 30px 70px 0 70px;
   }
 }
@@ -504,14 +504,14 @@ p.projects-descriptions-image-credits {
     text-align: center;
   }
 
-  .contact-text {
+  .contact-header {
     padding: 51px 0 37px 0;
   }
-  .contact-text p {
+  .contact-header p {
     padding: 11px;
     font-size: 19px;
   }
-  .contact-text h3 {
+  .contact-header h3 {
     font-size: 27px;
   }
 }
