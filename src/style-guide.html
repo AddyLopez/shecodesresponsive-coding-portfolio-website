@@ -70,6 +70,43 @@
         margin: 20px auto;
         max-width: 1050px;
       }
+      div.text-styles {
+        padding: 10px;
+        margin: 0 auto;
+      }
+      div.text-styles small {
+        opacity: 0.8;
+      }
+
+      div.text-styles h3 {
+        font-family: "Cabin Sketch", "Trebuchet MS", sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+      }
+      div.text-styles h5 {
+        font-family: "Cabin Sketch", "Trebuchet MS", sans-serif;
+        font-size: 40px;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+      }
+      div.text-styles h6 {
+        font-family: "Cabin Sketch", "Trebuchet MS", sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+      }
+      div.text-styles p {
+        font-family: "Cabin Sketch", "Trebuchet MS", sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 1;
+      }
+      div.text-styles ul {
+        list-style: square;
+      }
+      div.text-styles li {
+        font-size: 18px;
+      }
       .colors {
         border: 10px solid white;
       }
@@ -148,7 +185,7 @@
           <div class="row">
             <div class="col-lg-3 terracotta palette">
               <p>Terracotta</p>
-              <p>rgb (230, 144, 102)</p>
+              <p>rgb(230, 144, 102)</p>
             </div>
             <div class="col-lg-3 cornsilk palette">
               <p>Cornsilk</p>
@@ -258,7 +295,30 @@
       </section>
       <section>
         <h2>Text Styles</h2>
-        <div class="text-center">/* To be completed tomorrow */</div>
+        <div class="container text-styles">
+          <small>(Excludes specifications for media queries.)</small>
+          <h3>H1: Main heading</h3>
+          <ul>
+            <li>Font-size: 55px</li>
+            <li>Font-weight: bold</li>
+          </ul>
+          <h5>H2: Subheading</h5>
+          <ul>
+            <li>Font-size: 40px [exception: 36px on Home Page]</li>
+            <li>Font-weight: bold</li>
+          </ul>
+          <h6>H3: Subheading</h6>
+          <ul>
+            <li>Font-size: 26px [About Page] or 28px [Projects Page]</li>
+            <li>Font-weight: bold</li>
+          </ul>
+          <p>Nav: Navigation</p>
+          <ul>
+            <li>Font-size: 28px</li>
+            <li>Font-weight: bold</li>
+            <li>Line-height: 1</li>
+          </ul>
+        </div>
       </section>
     </div>
   </body>
