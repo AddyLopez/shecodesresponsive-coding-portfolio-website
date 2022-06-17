@@ -102,8 +102,18 @@ div.decorative-bar {
   color: var(--color-accent-link);
 }
 
+.home,
+.about,
+.projects,
+.contact {
+  padding: 115px 0 162px 0;
+}
+
 .home {
-  padding: 115px 0px 162px 0;
+  background-image: url("/images/background/ancestral-puebloan-motif-tuxedo-adjusted.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
 }
 .home h1 {
@@ -154,7 +164,7 @@ section.home-carousel {
 }
 
 .about {
-  padding: 115px 0 162px 0;
+  background-image: url("/images/background/ancestral-puebloan-motif-stippled.jpeg");
 }
 .about a {
   color: var(--color-theme);
@@ -219,43 +229,8 @@ section.home-carousel {
   text-align: justify;
 }
 
-.contact {
-  padding: 115px 0 162px 0;
-  text-align: center;
-}
-.contact-header-underlay {
-  background-color: rgba(224, 79, 55, 0.35);
-}
-.contact-header {
-  background-color: var(--color-accent-regular);
-  color: var(--color-text-main);
-  margin: 0;
-  opacity: 0.9;
-  padding: 89px 0 107px 0;
-}
-.contact-header h1 {
-  font-size: 55px;
-  font-weight: bold !important;
-}
-.contact-header h2 {
-  font-size: 40px;
-  color: var(--color-accent-special);
-}
-.contact-header p {
-  font-size: 23px;
-  margin-top: 26px;
-}
-.contact-header a {
-  color: var(--color-text-main);
-}
-.contact-header a:hover {
-  background-color: var(--color-accent-link);
-  border-radius: 6px;
-  padding: 4px 6px;
-}
-
 .projects {
-  padding: 115px 0 162px 0;
+  background-image: url("/images/background/ancestral-puebloan-motif-3.JPG");
 }
 .projects-header {
   background-color: rgba(230, 144, 102, 0.9);
@@ -354,6 +329,40 @@ p.projects-descriptions-date {
 }
 p.projects-descriptions-image-credits {
   margin-bottom: 0;
+}
+.contact {
+  background-image: url("/images/background/ancestral-puebloan-motif-bowtie-2\ copy.JPG");
+  text-align: center;
+}
+.contact-header-underlay {
+  background-color: rgba(224, 79, 55, 0.35);
+}
+.contact-header {
+  background-color: var(--color-accent-regular);
+  color: var(--color-text-main);
+  margin: 0;
+  opacity: 0.9;
+  padding: 89px 0 107px 0;
+}
+.contact-header h1 {
+  font-size: 55px;
+  font-weight: bold !important;
+}
+.contact-header h2 {
+  font-size: 40px;
+  color: var(--color-accent-special);
+}
+.contact-header p {
+  font-size: 23px;
+  margin-top: 26px;
+}
+.contact-header a {
+  color: var(--color-text-main);
+}
+.contact-header a:hover {
+  background-color: var(--color-accent-link);
+  border-radius: 6px;
+  padding: 4px 6px;
 }
 
 @media (min-width: 1200px) {
